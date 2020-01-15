@@ -1,0 +1,135 @@
+Task 1
+
+1.1 ls
+    The ls command diplays/outputs the files in the current working directory or directories.
+  
+1.2 pwd
+    The pwd (Print Working Directory) command prints the current directory.
+    It will print the full system path of the directory as standard output.
+    
+     
+1.3 mkdir workspace
+
+
+
+
+   69  cd /workspace/
+   70  cd workspace
+   71  ls
+   72  touch README.md
+   73  ls
+   74  cp README.md CHANGELOG.md
+   75  ls
+   76  clear
+   77  cd /
+   78  ls
+   79  cd ~
+   80  ls
+   81  clear
+   82  touch exercise.md
+   83  mv exercise.md /tmp
+   84  ls
+   85  cd /tmp
+   86  ls
+   87  echo $PATH
+   88  pwd
+   89  echo $tmp
+   90  ls
+   91  echo $PATH
+   92  clear
+   93  cd ~/
+   94  man
+   95  man cat
+   96  touch umuzi.md recruits.md cohort.md
+   97  ls
+   98  cat > umuzi.md
+   99  cat umuzi.md
+  100  cat > recruits.md
+  101  cat recruits.md
+  102  cat > cohort.md
+  103  cat cohort.md
+  104  cat umuzi.md recruits.md cohort.md
+  105  cat umuzi.md recruits.md cohort.md > summary.md
+  106  cat summary.md
+  107  cat summary.md The End
+  108  cat summary.md + The End
+  109  cat summary.md -> The End
+  110  cat summary.md
+  111  cat umuzi.md recruits.md cohort.md -> summary.md
+  112  cat summary.md
+  113  locate umuzi
+  114  grep umuzi
+  115  sudo init 0
+  116  pwd
+  117  cd ~/
+  118  pwd
+  119  ls
+  120  locate umuzi
+  121  locate umuzi > search_results.md
+  122  cat search_results.md
+  123  pwd
+  124  ls
+  125  cd Documents
+  126  touch pad.md
+  127  ls
+  128  cd Desktop
+  129  cd \Desktop
+  130  clear
+  131  cd /Desktop
+  132  cd ~/exit
+  133  cd ~/
+  134  ls
+  135  cd Desktop
+  136  mkdir work
+  137  ls
+  138  cp pad.md /home/recruit/Documents/ pad_copy.md
+  139  pwd
+  140  ls
+  141  cd work
+  142  cp /home/recruit/Documents/pad.md pad_copy.md
+  143  ls
+  144  locate updatedb
+  145  cd -
+  146  locate pad_copy.md
+  147  locate pad_copy.mdlocate pad_copy.md
+  148  locate pad_copy.md
+  149  cd ~/
+  150  loacte pad_copy.md
+  151  locate pad_copy.md
+  152  man locate
+  153  locate .pdf
+  154  locate ~/ -name *.pdf
+  155  locate ~/ -name --l *.pdf
+  156  locate .pdf
+  157  touch find_results.md
+  158  locate .pdf > find_results.md
+  159  mv find_results. ~/Desktop
+  160  mv find_results.md ~/Desktop
+  161  cd ~/Desktop
+  162  cat find_results.md
+  163  find /home -type f -ctime -1 -1s
+  164  find. -mtime -1 -print 
+  165  cd~/
+  166  cd ~/
+  167  find. -mtime -1 -print 
+  168  find . -mtime -1 -print 
+  169  find . -mtime -1 -print clear
+  170  clear
+  171  nano my_bio.md
+  172  pwd
+  173  ls
+  174  my_bio.md > my_files
+  175  nano my_bio.md
+  176  mkdir my_files
+  177  ls
+  178  cd Desktop
+  179  mkdir my_files
+  180  ls
+  181  nano my_bio.md
+  182  pwd
+  183  mv my_bio.md my_files
+  184  nano my_bio.md
+
+
+
+
