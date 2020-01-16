@@ -1,77 +1,84 @@
-Task 1
+Task 1: Basic Task
 
-1.1 ls
+1.1 ~$ ls
     The ls command diplays/outputs the files in the current working directory or directories.
   
-1.2 pwd
+1.2 ~$ pwd
     The pwd (Print Working Directory) command prints the current directory.
     It will print the full system path of the directory as standard output.
     
      
-1.3 mkdir workspace
+1.3 ~$ mkdir workspace
+    ~$ cd workspace
+    ~$ ls
+    workspace has no files inside.
+    
+1.4 ~$ ls
+    There is currently no file inside the current working directory which is workspace so nothing is displayed.
+    
+1.5 ~$ touch README.md
+    ~$ ls
+    Creates new md file called read me inside the workspace directory.
 
+1.6 ~$ cp README.md CHANGELOG.md     
+    ~$ ls 
+    Copies the READ.md file and duplicates the file as CHANGELOG.md
+    
 
+Task 2: Absolute and Relative Paths
 
+2.1 ~$ touch exercise.md
+    ~$ mv exercise.md /tmp
+    ~$ ls
+    exercise.md is removed
+    ~$ cd /tmp
+    /tmp$ ls
+    exercise.md is moved to0 tmp directory.
 
-   69  cd /workspace/
-   70  cd workspace
-   71  ls
-   72  touch README.md
-   73  ls
-   74  cp README.md CHANGELOG.md
-   75  ls
-   76  clear
-   77  cd /
-   78  ls
-   79  cd ~
-   80  ls
-   81  clear
-   82  touch exercise.md
-   83  mv exercise.md /tmp
-   84  ls
-   85  cd /tmp
-   86  ls
-   87  echo $PATH
-   88  pwd
-   89  echo $tmp
-   90  ls
-   91  echo $PATH
-   92  clear
-   93  cd ~/
-   94  man
-   95  man cat
-   96  touch umuzi.md recruits.md cohort.md
-   97  ls
-   98  cat > umuzi.md
-   99  cat umuzi.md
-  100  cat > recruits.md
-  101  cat recruits.md
-  102  cat > cohort.md
-  103  cat cohort.md
-  104  cat umuzi.md recruits.md cohort.md
-  105  cat umuzi.md recruits.md cohort.md > summary.md
-  106  cat summary.md
-  107  cat summary.md The End
-  108  cat summary.md + The End
-  109  cat summary.md -> The End
-  110  cat summary.md
+Task 3: cat commands
+
+3.1 ~$ touch umuzi.md recruits.md cohort.md
+    ~$ ls
+    touch.md, umuzi.md and cohort.md created inside root folder
+    
+3.2 ~$ cat > umuzi.md
+    ~$ cat umuzi.md
+    ~$ cat > recruits.md
+    ~$ cat recruits.md
+    ~$ cat > cohort.md
+    ~$ cat cohort.md
+    
+3.3 ~$ cat umuzi.md recruits.md cohort.md
+    combiles the md files and outputs the contents.
+    
+    ~$ cat umuzi.md recruits.md cohort.md > summary.md
+    ~$ cat summary.md
+    Displays contents from umuzi.md, recruits.md and cohort.md concatinated.
+    
+3.4 ~$ cat summary.md -> The End
+    adds the
+  cat summary.md
   111  cat umuzi.md recruits.md cohort.md -> summary.md
   112  cat summary.md
-  113  locate umuzi
-  114  grep umuzi
-  115  sudo init 0
-  116  pwd
-  117  cd ~/
-  118  pwd
-  119  ls
-  120  locate umuzi
-  121  locate umuzi > search_results.md
-  122  cat search_results.md
-  123  pwd
-  124  ls
-  125  cd Documents
-  126  touch pad.md
-  127  ls
+  
+ Task 4: The locate command 
+  
+ 4.1 ~$ locate umuzi
+ locates the path of the umuzi file (/home/recruits/umuzi.md)
+ 
+ 4.2 ~$ locate umuzi > search_results.md
+     ~$ cat search_results.md
+     stores/prints the results of the locate command to a file called search_results.md
+ 
+ Task 5: The locate command cont..
+ 
+ 5.1 ~$ pwd
+     ~$ ls
+     ~$ cd Documents
+     ~$ touch pad.md
+     ~$ ls
+     touch.md is created within the documents folder.
+     
   128  cd Desktop
   129  cd \Desktop
   130  clear
