@@ -1,4 +1,5 @@
-Task 1: Basic Task
+# Umuzi Beginner Linux Challenges
+# Task 1: Basic Task
 
 1.1 ~$ ls
 # The ls command diplays/outputs the files in the current working directory or directories.
@@ -20,34 +21,42 @@ Task 1: Basic Task
     ~$ ls
 # Creates new md file called read me inside the workspace directory.
 
-1.6 ~$ cp README.md CHANGELOG.md     
-    ~$ ls 
+1.6 ~$ cp README.md CHANGELOG.md      
 # Copies the READ.md file and duplicates the file as CHANGELOG.md
-    
+    ~$ ls
+# File is successfully copied
 
-Task 2: Absolute and Relative Paths
+# Task 2: Absolute and Relative Paths
 
 2.1 ~$ touch exercise.md
+# Creates a new file
     ~$ mv exercise.md /tmp
+#Moves to /tmp directory
     ~$ ls
 # exercise.md is removed
     ~$ cd /tmp
     /tmp$ ls
 # exercise.md is moved to0 tmp directory.
 
-Task 3: cat commands
+# Task 3: cat commands
 
 3.1 ~$ touch umuzi.md recruits.md cohort.md
     ~$ ls
 # touch.md, umuzi.md and cohort.md created inside root folder
     
-//3.2 ~$ cat > umuzi.md
+3.2 ~$ cat > umuzi.md
+# Allows file to be modified.
     ~$ cat umuzi.md
+# Check if file was modified successfully.
     ~$ cat > recruits.md
+# Allows file to be modified.
     ~$ cat recruits.md
+# Check if file was modified successfully.
     ~$ cat > cohort.md
+# Allows file to be modified.
     ~$ cat cohort.md
-    
+# Check if file was modified successfully.
+
 3.3 ~$ cat umuzi.md recruits.md cohort.md
 # combiles the md files and outputs the contents.
     
@@ -55,11 +64,12 @@ Task 3: cat commands
     ~$ cat summary.md
 # Displays contents from umuzi.md, recruits.md and cohort.md concatinated.
     
-//3.4 ~$ cat summary.md -> The End
-# adds the
-  cat summary.md
-  111  cat umuzi.md recruits.md cohort.md -> summary.md
-  112  cat summary.md
+//3.4 ~$ cat umuzi.md recruits.md cohort.md -> summary.md
+# Allows summary.md to be modified.
+# Add "The end"
+    ~$ cat summary.md 
+#Check if text is concatinated.
+  
   
 Task 4: The locate command 
   
@@ -89,7 +99,7 @@ Task 5: The locate command cont..
      ~/Desktop/work$ ls
 # pad_copy.md is successfully copied in work directory.
      
-//5.4 ~/Desktop/work$ locate updatedb
+5.4 ~/Desktop/work$ locate updatedb
     
 5.5 ~/Desktop/work$ cd -
 # Takes us to the Desktop directory.
