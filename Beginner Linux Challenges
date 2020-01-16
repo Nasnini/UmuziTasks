@@ -118,7 +118,7 @@ Task 6: Find commands
     ~/Desktop$ cat find_results.md
 # Prints the results into a file called find_results which is in the Desktop directory.
 
-//6.3 ~$ find . -mtime - 1 -print
+6.3 ~$ find . -type f -newermt 2020-01-16 -ls
 # Displays all the files that were modified today. 
 
 
@@ -134,7 +134,7 @@ Task 6: Find commands
 7.3 ~/Desktop$ mkdir my_files
 # Creates a my_files directory in Desktop.
     ~/Desktop$ ls
-#Directory is successfully created.
+# Directory is successfully created.
     ~/Desktop$ mv my_bio.md my_files
 # Move my_bio.md into my_files    
     ~/Desktop$ ls
